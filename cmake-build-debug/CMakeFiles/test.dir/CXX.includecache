@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wy/CLionProjects/test/freadfwrite.cpp
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+
+/home/wy/CLionProjects/test/main.cpp
+iostream
+-
+algorithm
+-
+freadfwrite.cpp
+/home/wy/CLionProjects/test/freadfwrite.cpp
+
